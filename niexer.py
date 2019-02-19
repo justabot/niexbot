@@ -237,7 +237,7 @@ for symbol in symbols:
               print('PASSED')
               all_rules_passed = True
       if all_rules_passed:
-        print('buyfuck...............................')
+        print('buy...............................')
         order_number = 999999999
         buy_price = round(Decimal(price),8)
         try:
@@ -357,7 +357,7 @@ for symbol in symbols:
     print('new sell_amount:            %(s)s' % {"s": sell_amount})
     if (trade_limit < price and sell_count_limit < 1):
       print('possible sell')
-      print('sellfuck..........................')
+      print('sell..........................')
       try:
         sell = client.create_order(
           symbol=symbol,
